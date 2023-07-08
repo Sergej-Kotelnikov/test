@@ -1505,3 +1505,18 @@ main {
     font-size: 12px;
   }
 }
+
+@media (max-width: 400px) {
+  .title-header {
+    font-family: "Grafita Special";
+    font-size: 16px;
+    line-height: 100px;
+    margin-left: 10px;
+  }
+  .butons {
+    margin-left: 10px;
+  }
+  .title {
+    margin-top: 190px;
+  }
+  }
