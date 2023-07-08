@@ -1144,11 +1144,15 @@ main {
   color: #f5f5f5;
 }
 
-
-@media (max-width: 1400px) {
-  .logo {
-    display: none;
+@media (max-width: 1350px) {
+  .header-3-2 {
+    font-size: 12px;
+    margin-right: 10px;
   }
+}
+
+@media (max-width: 1300px) {
+
   .layers__container {
     height: 100vh;
     min-height: 310px;
@@ -1158,13 +1162,13 @@ main {
     margin-bottom: -30px;
   }
   .title {
-    margin-top: 230px;
+    margin-top: 350px;
   }
   .butons {
     display: flex;
-
     margin-top: 60px;
   }
+
 }
 
 @media (max-width: 1200px) {
@@ -1191,6 +1195,9 @@ main {
   }
   .title {
     margin-top: 240px;
+  }
+  .logo {
+    display: none;
   }
 }
 
