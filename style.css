@@ -698,7 +698,10 @@ main {
   font-family: "Noto Sans", sans-serif;
   color: #a9a771;
 }
-
+.pesontedan label:hover {
+  color: #ffec2d;
+  transition: all 0.4s ease-in-out;
+}
 .pesontedan-content {
   max-height: 0;
   overflow: hidden;
@@ -780,6 +783,10 @@ main {
   align-items: center;
   margin-bottom: 35px;
 }
+.list-menu:hover {
+  color: #ffec2d;
+  transition: all 0.4s ease-in-out;
+}
 .list__names {
   flex-wrap: wrap;
   margin-bottom: 30px;
@@ -822,6 +829,11 @@ main {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.info__text-phone:hover {
+  color: #ffec2d;
+  transition: all 0.4s ease-in-out;
 }
 
 .butons_form {
@@ -937,6 +949,10 @@ main {
   line-height: 29px;
   color: #000000;
 }
+.phone:hover {
+  color: #ffec2d;
+  transition: all 0.4s ease-in-out;
+}
 .contact__time {
   font-family: "Grafita Special";
   font-style: normal;
@@ -1016,6 +1032,11 @@ main {
   line-height: 29px;
   color: #fadfad;
 }
+.footer__title:hover {
+  color: #ffec2d;
+  transition: all 0.4s ease-in-out;
+}
+
 .header {
 }
 .make {
@@ -1030,6 +1051,11 @@ main {
   font-size: 25px;
   line-height: 29px;
   color: #fadfad;
+}
+
+.phone__footer:hover {
+  color: #ffec2d;
+  transition: all 0.4s ease-in-out;
 }
 
 .footer__footer {
@@ -1050,6 +1076,17 @@ main {
 .footer__site {
   color: #f5f5f5;
 }
+
+.lis:hover {
+  color: #ffec2d;
+  transition: all 0.4s ease-in-out;
+}
+.footer__site:hover {
+  color: #ffec2d;
+  transition: all 0.4s ease-in-out;
+}
+
+
 
 @media (max-width: 1350px) {
   .header-3-2 {
