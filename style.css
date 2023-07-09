@@ -1215,6 +1215,9 @@ main {
     font-size: 10px;
     margin-right: 10px;
   }
+  .layer-4 {
+    margin-top: 350px;
+  }
 }
 @media (max-width: 990px) {
   .list__names {
@@ -1514,9 +1517,10 @@ main {
     margin-left: 10px;
   }
   .butons {
+    margin-top: 20px;
     margin-left: 10px;
   }
   .title {
-    margin-top: 190px;
+    margin-top: 350px;
   }
   }
