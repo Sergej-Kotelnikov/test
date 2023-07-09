@@ -57,7 +57,7 @@ window.onload = setTimeout(function () {
   const mainEl = document.querySelector(`main`);
   mainEl.style.display = `flex`;
   preloaderEl.style.display = `none`;
-}, 2000);
+}, 4000);
 
 //Map
 
