@@ -358,6 +358,9 @@ main {
   gap: 20px;
   border: 1px solid #fadfad;
   color: #fadfad;
+  position: relative;
+  overflow: hidden;
+  transition: .5s;
 }
 .button__arrow {
   display: flex;
@@ -369,7 +372,38 @@ main {
   gap: 10px;
   border: 1px solid #fadfad;
   color: #fadfad;
+  position: relative;
+  overflow: hidden;
+  transition: .5s;
 }
+.btn {
+
+}
+.btn:hover {
+  border-color: #01b9ff;
+  color: #01b9ff;
+  box-shadow: 0 0 15px #01b9ff;
+}
+.click {
+  position: absolute;
+  border: 2px solid #ffffff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: anim 2s linear infinite;
+}
+@keyframes anim {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+
 .layer-6,
 .layer-7,
 .layer-8 {

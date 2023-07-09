@@ -159,3 +159,28 @@ $(document).ready(function () {
     $("body").removeClass("lock");
   });
 });
+
+//BUTTONS
+
+let btn = document.querySelectorAll('.btn');
+
+btn.forEach(btn => {
+	btn.onclick = (e) => {
+		let x = e.pageX - e.target.offsetLeft;
+		let y = e.pageY - e.target.offsetTop;
+
+		let color = '#' + Math.ceil(Math.random() * 0xFFFFFF).toString(16);
+
+		let circle = document.createElement('span');
+
+		circle.style.left = x + 'px';
+		circle.style.top = y + 'px';
+		circle.style.borderColor = color;
+		btn.appendChild(circle);
+		circle.classList.add('click');
+
+		setTimeout(() => {
+			circle.remove();
+		}, 2000);
+	};
+});
