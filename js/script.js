@@ -53,14 +53,16 @@ new Swiper(`.image-slider`, {
 
 //Preloader
 
-let mask = document.querySelector('.mask-loader');
 
-window.addEventListener('load', () => {
-    mask.classList.add('hide');
-    setTimeout(() => {
-        mask.remove();
-    },1000);
-});
+
+
+//Preloader
+window.onload = setTimeout(function () {
+  const preloaderEl = document.querySelector(`.mask-loader`);
+  const mainEl = document.querySelector(`main`);
+  mainEl.style.display = `flex`;
+  preloaderEl.style.display = `none`;
+}, 2000);
 
 //Map
 
