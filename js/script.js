@@ -52,11 +52,6 @@ new Swiper(`.image-slider`, {
 });
 
 //Preloader
-
-
-
-
-//Preloader
 window.onload = setTimeout(function () {
   const preloaderEl = document.querySelector(`.mask-loader`);
   const mainEl = document.querySelector(`main`);
