@@ -1489,6 +1489,19 @@ main {
     font-family: "Noto Sans", sans-serif;
     font-size: 12px;
   }
+  .layer-5 {
+    margin-top: 10px;
+  }
+  .layers__container {
+    min-height: 600px;
+  }
+  .butons {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 100%;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1509,7 +1522,7 @@ main {
     display: none;
   }
   .title {
-    margin-top: 160px;
+    margin-top: 300px;
   }
   .header-3-2 {
     font-size: 8px;
