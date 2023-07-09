@@ -1198,7 +1198,7 @@ main {
     margin-right: 10px;
   }
   .layer-4 {
-    margin-top: 350px;
+    margin-top: 420px;
   }
 }
 @media (max-width: 990px) {
@@ -1513,7 +1513,7 @@ main {
   }
   .butons {
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     width: 100%;
     margin-bottom: 100px;
     flex-wrap: wrap;
